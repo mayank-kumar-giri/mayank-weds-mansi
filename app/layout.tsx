@@ -36,7 +36,7 @@ const devanagariDisplay = Yatra_One({
 const reception = process.env.NEXT_PUBLIC_SITE === 'reception'
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`https://utkarshb1.github.io${BASE_PATH || '/us'}/`),
+  metadataBase: new URL(`https://mayank-kumar-giri.github.io${BASE_PATH || '/mayank-weds-mansi'}/`),
   title: reception ? 'मयंक संग मानसी · रिसेप्शन, भिलाई' : 'मयंक संग मानसी · रायपुर एवं भिलाई',
   description: reception
     ? 'मयंक एवं मानसी के रिसेप्शन में सादर आमंत्रित - Jharokha - The Wedding Palace, Bhilai, December 12, 2026.'
